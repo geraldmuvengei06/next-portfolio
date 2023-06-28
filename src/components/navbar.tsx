@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function Navbar() {
     return (
         <>
-            <nav className='min-w-full fixed backdrop-blur-xl backdrop-filter bg-opacity-30 z-50'>
+            <nav className='min-w-full fixed backdrop-blur-3xl dark:backdrop-blur-3xl backdrop-filter dark:backdrop-filter bg-opacity-5 dark:bg-opacity-30 bg-green-500  dark:bg-dark-light z-50 shadow'>
                 <div className='lg:max-w-6xl lg:mx-auto lg:px-12 relative'>
                     {/* desktop menu */}
                     <div className="menu-large hidden sm:flex flex-row justify-between items-center px-8 py-4">
@@ -52,14 +52,14 @@ export default function Navbar() {
                                 src={link.iconPath}
                                 alt={link.title}
                                 className="py-4 fill-primary dark:fill-dark-light"
-                                width={54}
-                                height={54}
+                                width={38}
+                                height={38}
                                 priority
                             /></a>
                         })
                     }
                 </div>
-                <div className="vertical-line mb-0 w-1 h-[218px] mx-auto bg-primary"></div>
+                <div className="vertical-line mb-0 w-1 rounded-lg h-[218px] mx-auto bg-primary"></div>
             </div>
         </>
     )

@@ -113,6 +113,27 @@ export const projects:{layout: string, title: string, description: string, link:
         ]
     },
     {
+        layout: '/project2.png',
+        title: 'Node Js',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+        link: '',
+        github: '',
+        technologies: [
+            {
+                icon: '/nodejs.png',
+                title: 'Node Js',
+            },
+            {
+                icon: '/nodejs.png',
+                title: 'Node Js',
+            },
+            {
+                icon: '/nodejs.png',
+                title: 'Node Js',
+            }
+        ]
+    },
+    {
         layout: '/project3.png',
         title: 'Node Js',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa tenetur',

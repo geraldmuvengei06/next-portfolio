@@ -13,7 +13,7 @@ export default function Projects() {
                         projects.map((project, index) => {
                             return (
                                 <div className="w-3/3 sm:w-2/4 md:w-1/3 xl:w-1/4 p-2">
-                                    <div key={index + 'projects'} className="card shadow rounded-2xl bg-white dark:bg-dark m-2 bg-opacity-70 backdrop-blur">
+                                    <div key={index + 'projects'} className="card shadow rounded-2xl bg-white dark:bg-dark m-1 bg-opacity-70 backdrop-blur">
                                         <figure ><img className="p-2 rounded-2xl" src={project.layout} alt={project.title} /></figure>
                                         <div className="card-body p-4">
                                             <h3 className="font-bold text-2xl">{project.title}</h3>
