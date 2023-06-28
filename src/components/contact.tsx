@@ -4,12 +4,12 @@ export default function Contact() {
             <div className="sm:px-16">
 
                 <div className="flex flex-col sm:flex-row p-4">
-                    <div className="flex sm:basis-1/2 xl:basis-1/3 flex-col">
+                    <div className="flex sm:basis-1/2 flex-col">
                         <h2 className=" text-4xl font-bold mb-4">Lets connect_</h2>
                         <a className="hover:text-primary" href="mailto:">johndoe@exampe.com</a>
                         <a className="hover:text-primary" href="tel:2454232323">+2454232323</a>
                     </div>
-                    <div className="flex flex-col sm:basis-1/2 xl:basis-2/3">
+                    <div className="flex flex-col sm:basis-1/2 ">
                         <h2 className=" text-4xl font-bold mb-4">Send a message_</h2>
                         <div className="card flex-shrink-0 w-full max-w-sm shadow-none bg-base-100">
                             <div className="card-body p-0">
