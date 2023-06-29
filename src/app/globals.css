@@ -16,6 +16,10 @@
   }
 }
 
+html, body {
+  scroll-behavior: smooth;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -26,23 +30,14 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-@media (min-width: 1280px)
-{.container {
-    max-width: 1280px;
-}}
+h1,h2,h3,h4,h5,h6 {
+  font-family: var(--font-inter);
+}
 
-@media (min-width: 1024px)
-{.container {
-    max-width: 1024px;
-}}
-@media (min-width: 768px)
-{.container {
-    max-width: 768px;
-}}
-@media (min-width: 640px)
-{.container {
-    max-width: 640px;
-}}
-.container {
-    width: 100%;
+
+/* navbar */
+@media screen and (max-width: 768px) {
+  .socials {
+    display: none !important;
+  }
 }

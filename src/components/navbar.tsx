@@ -44,7 +44,7 @@ export default function Navbar() {
                 </div>
             </nav>
 
-            <div className="socials fixed bottom-0 sm:left-2 align-middle">
+            <div className="socials fixed bottom-0 sm:left-2 align-middle z-10">
                 <div className="icons ">
                     {
                         social_links.map((link, index) => {

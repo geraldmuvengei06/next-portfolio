@@ -2,14 +2,15 @@
 import Image from "next/image";
 import Navbar from "./navbar";
 import { TypeAnimation } from "react-type-animation";
+import { raleway } from "@/styles/fonts";
 
 export default function Hero() {
     return (
 
-        <div className="container lg:max-w-6xl overflow-hidden mx-auto pt-28 sm:py-4">
-            <div className="sm:px-16 flex flex-col lg:flex-row min-h-screen items-center sm:justify-center gap-12 lg:gap-0">
+        <div className="container z-0 lg:max-w-6xl overflow-hidden mx-auto pt-28 sm:py-4 relative ">
+            <div className="sm:px-16 flex flex-col lg:flex-row min-h-screen items-center sm:justify-center gap-12 lg:gap-0 backdrop-filter backdrop-blur-2xl bg-opacity-10">
                 <div className="text-center md:basis-1/3 xl:basis-2/3 flex flex-col gap-2 items-center lg:text-left lg:items-start">
-                    <h1 className="">
+                    <h1 className={raleway.className}>
                         <span className="text-4xl font-bold dark:text-white text-dark-light">Hi,</span> <br />
                         <span className="text-5xl font-extrabold dark:text-white text-dark-light">I'm Gerald</span> <br />
                         <span className="text-5xl font-extrabold text-primary">Muvengei</span>
@@ -42,8 +43,8 @@ export default function Hero() {
                             src="/download.svg"
                             alt="download"
                             className="text-dark"
-                            width={38}
-                            height={38}
+                            width={24}
+                            height={24}
                             priority
                         />
                     </button>
@@ -67,6 +68,10 @@ export default function Hero() {
                         priority
                     />
                 </div>
+
+            </div>
+            <div className="absolute top-40 h-96 rounded-full max-w-md w-96 right-32 -z-10 bg-gradient-to-r from-primary to-dark opacity-20">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe harum molestias perferendis, veritatis quaerat mollitia repudiandae ipsam, in iure est velit eaque enim voluptatibus dolorem delectus quibusdam quos quis laborum.
             </div>
         </div>
     )

@@ -2,10 +2,10 @@ import { projects } from "@/lib/data";
 import Image from "next/image";
 export default function Projects() {
     return (
-        <div className="container lg:max-w-6xl overflow-hidden mx-auto py-4 text-dark-light dark:text-white">
+        <div className="container lg:max-w-6xl overflow-hidden mx-auto py-8 text-dark-light dark:text-white">
             <div className="sm:px-16">
                 <div className="p-4">
-                    <h2 className=" text-4xl font-bold mb-4">Projects_</h2>
+                    <h2 className=" text-4xl font-bold mb-4">Projects<span className="text-primary">_</span></h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa tenetur voluptatem porro maxime earum, voluptatibus natus asperiores vitae quia fuga, unde molestias velit repudiandae quo. Fugit error repellat voluptate inventore.</p>
                 </div>
                 <div className="projects flex flex-wrap my-4">
