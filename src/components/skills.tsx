@@ -1,6 +1,7 @@
 import { skills } from "@/lib/data";
 import Image from "next/image";
 export default function Skills() {
+    // TODO:: Add infinit scroll on skills section, hover effects, animations
     return (
         <div className="container lg:max-w-6xl overflow-hidden mx-auto py-4 text-dark-light dark:text-white">
             <div className="sm:px-16 ">

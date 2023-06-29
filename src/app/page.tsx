@@ -7,6 +7,9 @@ import Skills from '@/components/skills'
 import Image from 'next/image'
 
 export default function Home() {
+
+  // TODO:: Add meta data
+  
   return (
     <main className="min-h-screen bg-green-500 bg-opacity-5  dark:bg-dark-light dark:bg-opacity-100">
      <Navbar />

@@ -1,4 +1,6 @@
 export default function Contact() {
+    // TODO: Link contact form to firebase, add articles section that fetches from dev.to
+    
     return (
         <div id="contact" className="container lg:max-w-6xl overflow-hidden mx-auto py-8 text-dark-light dark:text-white">
             <div className="sm:px-16">
