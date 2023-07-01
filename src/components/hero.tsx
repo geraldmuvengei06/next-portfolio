@@ -14,7 +14,7 @@ export default function Hero() {
                 <div className="text-center md:basis-1/3 xl:basis-2/3 flex flex-col gap-2 items-center lg:text-left lg:items-start">
                     <h1 className={raleway.className}>
                         <span className="text-4xl font-bold dark:text-white text-dark-light">Hi,</span> <br />
-                        <span className="text-5xl sm:text-6xl font-extrabold dark:text-white text-dark-light">I'm Gerald</span> <br />
+                        <span className="text-5xl sm:text-6xl font-extrabold dark:text-white text-dark-light">Am Gerald</span> <br />
                         <span className="text-5xl sm:text-6xl font-extrabold text-primary">Muvengei</span>
                     </h1>
 
