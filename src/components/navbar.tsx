@@ -30,16 +30,6 @@ export default function Navbar() {
                             height={48}
                             priority
                         />
-                        <a href="#contact" className="contact-item">
-                            <Image
-                                src="/menu.svg"
-                                alt="Menu"
-                                // className="dark:invert"
-                                width={56}
-                                height={56}
-                                priority
-                            />
-                        </a>
                     </div>
 
                 </div>
