@@ -38,21 +38,21 @@ export default function Contact() {
                                         <label className="label">
                                             <span className="label-text text-primary">Name</span>
                                         </label>
-                                        <input  type="text" {...formik.getFieldProps('name')} placeholder="john doe" className="input input-bordered bg-transparent  dark:border-slate-400" />
+                                        <input  type="text" {...formik.getFieldProps('name')} placeholder="john doe" className="input border-slate-400 bg-transparent  dark:border-slate-400" />
                                         { formik?.errors.name && <p className="text-sm text-error">{formik?.errors.name}</p>}
                                     </div>
                                     <div className="form-control">
                                         <label className="label">
                                             <span className="label-text text-primary">Email</span>
                                         </label>
-                                        <input type="text" {...formik.getFieldProps('email')} placeholder="johndoe@example.com" className="input input-bordered bg-transparent  dark:border-slate-400" />
+                                        <input type="text" {...formik.getFieldProps('email')} placeholder="johndoe@example.com" className="input border-slate-400 bg-transparent  dark:border-slate-400" />
                                         { formik?.errors.email && <p className="text-sm text-error">{formik?.errors.email}</p>}
                                     </div>
                                     <div className="form-control">
                                         <label className="label">
                                             <span className="label-text text-primary">Message</span>
                                         </label>
-                                        <input {...formik.getFieldProps('message')} type="text" placeholder="Message goes here" className="input input-bordered bg-transparent  dark:border-slate-400" />
+                                        <input {...formik.getFieldProps('message')} type="text" placeholder="Message goes here" className="input border-slate-400 bg-transparent  dark:border-slate-400" />
                                         { formik?.errors.message && <p className="text-sm text-error">{formik?.errors.message}</p>}
 
                                     </div>

@@ -3,7 +3,6 @@ import Image from 'next/image'
 
 
 export default function Navbar() {
-    // TODO:: Add mobile menu, valid links
     return (
         <>
             <nav className='min-w-full fixed backdrop-blur-3xl dark:backdrop-blur-3xl backdrop-filter dark:backdrop-filter bg-opacity-5 dark:bg-opacity-30 bg-green-500  dark:bg-dark-light z-50 shadow'>
@@ -54,4 +53,4 @@ export default function Navbar() {
             </div>
         </>
     )
-}
+}   

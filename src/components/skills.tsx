@@ -12,9 +12,9 @@ export default function Skills() {
                         {
                             skills.map((skill, index) => {
                                 return (
-                                    <div key={index + 'skills'} className="card shadow-sm bg-white dark:bg-dark m-2 border-1 border-transparent hover:ring-1 hover:ring-slate-700">
+                                    <div key={index + 'skills'} className="card bg-opacity-70 backdrop-blur shadow-sm bg-white dark:bg-dark m-2 border-1 border-transparent hover:ring-1 hover:ring-slate-700">
                                         <div className="card-body">
-                                            <img alt={skill.title} src={skill.icon} className="max-h-14 "/>
+                                            <img alt={skill.title} src={skill.icon} className="max-h-10 max-w-10"/>
                                         </div>
                                     </div>
                                 )

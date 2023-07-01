@@ -7,7 +7,6 @@ import { social_links } from "@/lib/data";
 
 
 export default function Hero() {
-    // TODO:: Add rotate animation on link sorrounding hero image
     return (
         
         <div className="container z-0 lg:max-w-6xl overflow-hidden mx-auto pt-28 sm:py-4 relative ">
@@ -90,7 +89,7 @@ export default function Hero() {
             </div>
             {/* <div className="absolute top-40 h-96 rounded-full max-w-md w-96 right-32 -z-10 bg-gradient-to-tr from-dark via-primary to-dark opacity-90">
             </div> */}
-            <div className="absolute top-0 left-0 bottom-0 right-0 h-screen -z-10 bg-gradient-to-l from-dark-light via-primary to-dark-light opacity-30 [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))] ">
+            <div className="absolute top-0 left-0 bottom-0 right-0 h-screen -z-10 bg-gradient-to-l from-transparent via-primary to-transparent dark:from-dark-light dark:via-primary dark:to-dark-light opacity-30 [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))] ">
             </div>
 
         </div>
