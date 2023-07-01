@@ -20,7 +20,7 @@ export default function Footer() {
                                 {
                                     social_links.map((link, index) => {
                                         return (
-                                            <a href={link.link} className="contact-item border-b-2 border-b-transparent hover:text-primary hover:border-b-2 hover:border-b-primary">{ link.title }</a>
+                                            <a href={link.link} key={index + 'link'} className="contact-item border-b-2 border-b-transparent hover:text-primary hover:border-b-2 hover:border-b-primary">{ link.title }</a>
                                         )
                                     })
                                 }

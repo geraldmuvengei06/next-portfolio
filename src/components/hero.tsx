@@ -23,7 +23,7 @@ export default function Hero() {
                             preRenderFirstString={true}
                             sequence={[
                                 // Same substring at the start will only be typed once, initially
-                                'I\'m a web developer',
+                                'Am a web developer',
                                 1000,
                                 'Frontend developer',
                                 1000,
