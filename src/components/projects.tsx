@@ -1,5 +1,5 @@
 import { projects } from "@/lib/data";
-import Image from "next/image";
+
 export default function Projects() {
     return (
         <div className="container lg:max-w-6xl overflow-hidden mx-auto py-14 text-dark-light dark:text-white">

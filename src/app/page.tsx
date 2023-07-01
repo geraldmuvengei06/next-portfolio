@@ -6,6 +6,7 @@ import Projects from '@/components/projects'
 import Skills from '@/components/skills'
 import Image from 'next/image'
 import { Metadata } from 'next'
+import Articles from '@/components/articles/articles'
 
 // TODO:: Add meta data
 
@@ -23,6 +24,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <Contact />
+      <Articles />
       <Footer />
     </main>
   )

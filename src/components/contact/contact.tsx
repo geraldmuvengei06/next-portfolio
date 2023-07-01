@@ -4,6 +4,7 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import { data } from "autoprefixer";
 import { contactFormValidation } from "./contact.model";
+import { ContactService } from "./contact.service";
 
 export default function Contact() {
     // TODO: Link contact form to firebase, add articles section that fetches from dev.to 
@@ -14,8 +15,9 @@ export default function Contact() {
             message: ""
         },
         validationSchema: contactFormValidation,
-        onSubmit: (values) => {
-            console.log(values);
+        onSubmit: async (values) => {
+            let res = await (new ContactService).submitContactForm({...values})
+            console.log("res", res);
         }
     })
     
