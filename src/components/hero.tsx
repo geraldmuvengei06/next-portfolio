@@ -59,7 +59,8 @@ export default function Hero() {
                         className="z-10 max-w-sm hidden sm:inline justify-center rounded-full overflow-hidden"
                         width={298}
                         height={320.78}
-                        priority
+                        placeholder="blur"
+                        blurDataURL="https://bit.ly/placeholder-image"
                     />
                     <Image
                         src="/hero.svg"
@@ -67,7 +68,8 @@ export default function Hero() {
                         className="z-10 max-w-sm inline sm:hidden justify-center rounded-full overflow-hidden"
                         width={268}
                         height={288.49}
-                        priority
+                        placeholder="blur"
+                        blurDataURL="https://bit.ly/placeholder-image"
                     />
                     <div className="absolute -z-0 animated-rotate w-[300px] md:w-[340px] p-4 -mt-16 sm:mt-0 -ml-4" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 927 926.1"><path d="M898.7 157.1c56.3 102 16.6 249.3-26.1 379.8-42.8 130.5-88.3 244-184.8 314.3-96.5 70.4-243.5 97.6-380.4 51.7C170.5 856.7 43.9 737.5 10.2 595.3c-34-142.2 25-307.4 128.1-420C241.6 62.6 389.5 2.5 539.6.5 690-1.2 842.4 55.3 898.7 157.1z" fill="none" stroke="#00DC82" stroke-width="3" stroke-miterlimit="10" stroke-opacity="1"></path></svg></div>
                     <div className="flex flex-row gap-6 align-middle justify-center mt-8 sm:hidden">

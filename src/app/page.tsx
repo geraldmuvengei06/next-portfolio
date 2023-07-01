@@ -19,13 +19,13 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-green-500 bg-opacity-5  dark:bg-dark-light dark:bg-opacity-100">
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <Skills />
       <Projects />
-      <Contact />
       <Articles />
-      <Footer />
+      <Contact />
+      {/* <Footer /> */}
     </main>
   )
 }

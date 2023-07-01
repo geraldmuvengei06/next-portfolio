@@ -1,34 +1,39 @@
 import { social_links } from '@/lib/data'
 import Image from 'next/image'
+import Link from 'next/link'
 
 
 export default function Navbar() {
     return (
         <>
-            <nav className='min-w-full fixed backdrop-blur-3xl dark:backdrop-blur-3xl backdrop-filter dark:backdrop-filter bg-opacity-5 dark:bg-opacity-30 bg-green-500  dark:bg-dark-light z-50 shadow'>
+            <nav className='min-w-full fixed backdrop-blur-3xl dark:backdrop-blur-3xl backdrop-filter dark:backdrop-filter bg-opacity-5 dark:bg-opacity-30 bg-green-500  dark:bg-dark-light z-50 shadow [mask-image:linear-gradient(180deg,dark,rgba(255,255,255,0))]'>
                 <div className='lg:max-w-6xl lg:mx-auto lg:px-12 relative'>
                     {/* desktop menu */}
                     <div className="menu-large hidden sm:flex flex-row justify-between items-center px-8 py-4">
-                        <Image
-                            src="/logo.svg"
-                            alt="Gerald Muvengei"
-                            // className="dark:invert"
-                            width={252}
-                            height={56}
-                            priority
-                        />
+                        <Link href='/'>
+                            <Image
+                                src="/logo.svg"
+                                alt="Gerald Muvengei"
+                                // className="dark:invert"
+                                width={252}
+                                height={56}
+                                priority
+                            />
+                        </Link>
                         <a href="#contact" className="contact-item border-b-2 border-b-transparent hover:text-primary hover:border-b-2 hover:border-b-primary">Contact Me_</a>
                     </div>
                     {/* mobile menu */}
                     <div className="sm:hidden flex flex-row justify-between items-center px-4 py-4">
-                        <Image
-                            src="/logo.svg"
-                            alt="Gerald Muvengei"
-                            // className="dark:invert"
-                            width={216}
-                            height={48}
-                            priority
-                        />
+                        <Link href='/'>
+                            <Image
+                                src="/logo.svg"
+                                alt="Gerald Muvengei"
+                                // className="dark:invert"
+                                width={216}
+                                height={48}
+                                priority
+                            />
+                        </Link>
                     </div>
 
                 </div>

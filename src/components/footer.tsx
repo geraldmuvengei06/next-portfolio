@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Footer() {
     return (
         <div>
-            <div className="container lg:max-w-6xl overflow-hidden mx-auto pt-10 pb-16  text-dark-light dark:text-white ">
+            <div className="container overflow-hidden min-w-full pt-10 pb-16  text-dark-light dark:text-white bg-green-500 bg-opacity-5  dark:bg-dark-light dark:bg-opacity-100">
                 <div className="sm:px-16">
                     <div className="p-4">
                     <div className="menu-large sm:flex flex-row justify-between items-center pb-5 border-b-2 border-b-slate-200 dark:border-b-slate-600">
