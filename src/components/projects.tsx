@@ -21,7 +21,7 @@ export default function Projects() {
                                             <Link href={project.link} target="_blank">
                                                 <h3 className="font-bold text-2xl  hover:underline">{project.title}</h3>
                                             </Link>
-                                            <p className="text-base text-slate-400"> {project.description}</p>
+                                            <p className="text-base text-slate-700 dark:text-slate-400"> {project.description}</p>
                                             <h3 className="font-semibold text-base">Technologies</h3>
                                             <div className="card-actions gap-1">
                                             {
