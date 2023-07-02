@@ -1,16 +1,16 @@
 export const social_links:{link: string, iconPath: string, title: string}[] = [
     {
-        link: "",
+        link: "https://www.linkedin.com/in/gerald-muvengei/",
         iconPath: '/linkedin.svg',
         title: 'Linkedin'
     },
     {
-        link: "",
+        link: "https://github.com/geraldmuvengei06",
         iconPath: '/github.svg',
         title: 'Github'
     },
     {
-        link: "",
+        link: "mailto:geraldmuvengei254@gmail.com",
         iconPath: '/mail.svg',
         title: 'Gmail'
     }
@@ -19,139 +19,163 @@ export const social_links:{link: string, iconPath: string, title: string}[] = [
 
 export const skills:{icon: string, title: string}[] = [
     {
-        icon: '/nodejs.png',
-        title: 'Node Js',
+        icon: '/nextjs.png',
+        title: 'Next Js',
+    },
+    {
+        icon: '/vuejs.png',
+        title: 'Vue Js',
+    },
+    
+    {
+        icon: '/react.png',
+        title: 'React Js',
+    },
+    {
+        icon: '/tailwind.png',
+        title: 'Tailwind',
+    },
+    {
+        icon: '/sass.png',
+        title: 'Sass',
+    },
+    {
+        icon: '/typescript.png',
+        title: 'Typescript',
+    },
+    {
+        icon: '/javascript.png',
+        title: 'Javascript',
     },
     {
         icon: '/nodejs.png',
         title: 'Node Js',
     },
     {
-        icon: '/nodejs.png',
-        title: 'Node Js',
+        icon: '/mongo.png',
+        title: 'Mongo DB',
     },
     {
-        icon: '/nodejs.png',
-        title: 'Node Js',
+        icon: '/laravel.png',
+        title: 'Laravel',
     },
     {
-        icon: '/nodejs.png',
-        title: 'Node Js',
+        icon: '/python.png',
+        title: 'Python',
     },
     {
-        icon: '/nodejs.png',
-        title: 'Node Js',
-    },
-    {
-        icon: '/nodejs.png',
-        title: 'Node Js',
-    },
-    {
-        icon: '/nodejs.png',
-        title: 'Node Js',
-    },
-    {
-        icon: '/nodejs.png',
-        title: 'Node Js',
+        icon: '/git.png',
+        title: 'Source Control',
     }
 ]
 
 
 export const projects:{layout: string, title: string, description: string, link: string, github: string, technologies: {icon: string, title: string}[] }[] = [
     {
-        layout: '/project1.png',
-        title: 'Node Js',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        link: '',
+        layout: '/project5.png',
+        title: 'Fullstack Development',
+        description: 'My portfolio website.',
+        link: '#',
         github: '',
         technologies: [
             {
-                icon: '/nodejs.png',
-                title: 'Node Js',
+                icon: '/nextjs.png',
+                title: 'Next Js',
             },
             {
-                icon: '/nodejs.png',
-                title: 'Node Js',
+                icon: '/tailwind.png',
+                title: 'Tailwind',
             },
             {
-                icon: '/nodejs.png',
-                title: 'Node Js',
+                icon: '/sass.png',
+                title: 'Sass',
             },
             {
-                icon: '/nodejs.png',
-                title: 'Node Js',
+                icon: '/typescript.png',
+                title: 'Typescript',
             },
-            {
-                icon: '/nodejs.png',
-                title: 'Node Js',
-            },
-            {
-                icon: '/nodejs.png',
-                title: 'Node Js',
-            }
         ]
     },
     {
-        layout: '/project2.png',
-        title: 'Node Js',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        link: '',
+        layout: '/project4.png',
+        title: 'Frontend Development',
+        description: 'TickerZone is a stock monitoring app that makes it easy to set trading goals.',
+        link: 'https://app.tickerzone.com/',
         github: '',
         technologies: [
             {
-                icon: '/nodejs.png',
-                title: 'Node Js',
+                icon: '/react.png',
+                title: 'React Js',
             },
             {
-                icon: '/nodejs.png',
-                title: 'Node Js',
+                icon: '/tailwind.png',
+                title: 'Tailwind',
             },
             {
-                icon: '/nodejs.png',
-                title: 'Node Js',
-            }
+                icon: '/sass.png',
+                title: 'Sass',
+            },
+            {
+                icon: '/javascript.png',
+                title: 'Javascript',
+            },
         ]
     },
-    {
-        layout: '/project2.png',
-        title: 'Node Js',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        link: '',
-        github: '',
-        technologies: [
-            {
-                icon: '/nodejs.png',
-                title: 'Node Js',
-            },
-            {
-                icon: '/nodejs.png',
-                title: 'Node Js',
-            },
-            {
-                icon: '/nodejs.png',
-                title: 'Node Js',
-            }
-        ]
-    },
+    
     {
         layout: '/project3.png',
-        title: 'Node Js',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa tenetur',
+        title: 'Frontend Development',
+        description: 'Sparemonger website and webapp.',
+        link: 'https://sparemonger.com/',
+        github: '',
+        technologies: [
+            {
+                icon: '/vuejs.png',
+                title: 'Vue Js',
+            },
+            {
+                icon: '/tailwind.png',
+                title: 'Tailwind',
+            },
+            {
+                icon: '/sass.png',
+                title: 'Sass',
+            },
+            {
+                icon: '/javascript.png',
+                title: 'Javascript',
+            },
+        ]
+    },
+    {
+        layout: '/project1.png',
+        title: 'Fullstack Development',
+        description: 'Kensoko.com Ecommerce Website',
         link: '',
         github: '',
         technologies: [
             {
-                icon: '/nodejs.png',
-                title: 'Node Js',
+                icon: '/vuejs.png',
+                title: 'Vue Js',
             },
             {
-                icon: '/nodejs.png',
-                title: 'Node Js',
+                icon: '/tailwind.png',
+                title: 'Tailwind',
             },
             {
-                icon: '/nodejs.png',
-                title: 'Node Js',
-            }
+                icon: '/sass.png',
+                title: 'Sass',
+            },
+            {
+                icon: '/javascript.png',
+                title: 'Javascript',
+            },
+            {
+                icon: '/laravel.png',
+                title: 'Laravel',
+            },
         ]
     },
+    
+  
 ]

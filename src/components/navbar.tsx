@@ -2,7 +2,6 @@ import { social_links } from '@/lib/data'
 import Image from 'next/image'
 import Link from 'next/link'
 
-
 export default function Navbar() {
     return (
         <>

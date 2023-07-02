@@ -9,12 +9,12 @@ import { social_links } from "@/lib/data";
 export default function Hero() {
     return (
         
-        <div className="container z-0 lg:max-w-6xl overflow-hidden mx-auto pt-28 sm:py-4 relative ">
-            <div className="sm:px-16 flex flex-col lg:flex-row min-h-screen items-center sm:justify-center gap-12 lg:gap-0 backdrop-blur-3xl dark:backdrop-blur-3xl backdrop-filter dark:backdrop-filter bg-opacity-5 dark:bg-opacity-30">
+        <div className="container z-0 lg:max-w-6xl overflow-hidden mx-auto pt-20 sm:py-4 relative ">
+            <div className="sm:px-16 pt-10 flex flex-col lg:flex-row min-h-screen items-center sm:justify-center gap-12 lg:gap-0 backdrop-blur-3xl dark:backdrop-blur-3xl backdrop-filter dark:backdrop-filter bg-opacity-5 dark:bg-opacity-30">
                 <div className="text-center md:basis-1/3 xl:basis-2/3 flex flex-col gap-2 items-center lg:text-left lg:items-start">
                     <h1 className={raleway.className}>
                         <span className="text-4xl font-bold dark:text-white text-dark-light">Hi,</span> <br />
-                        <span className="text-5xl sm:text-6xl font-extrabold dark:text-white text-dark-light">Am Gerald</span> <br />
+                        <span className="text-5xl sm:text-6xl font-extrabold dark:text-white text-dark-light">I'm Gerald</span> <br />
                         <span className="text-5xl sm:text-6xl font-extrabold text-primary">Muvengei</span>
                     </h1>
 

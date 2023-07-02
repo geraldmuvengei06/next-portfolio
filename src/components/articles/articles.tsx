@@ -44,7 +44,7 @@ export default function Articles() {
                                                 }
                                             </div>
                                             {/* <h3 className="font-bold text-xl hover:underline"><Link href={'articles/' + article?.slug}>{article?.title}</Link></h3> */}
-                                            <h3 className="font-bold text-xl hover:underline"><Link href={article?.url}>{article?.title}</Link></h3>
+                                            <h3 className="font-bold text-xl hover:underline"><Link target="_blank" href={article?.url}>{article?.title}</Link></h3>
                                             <p className="text-base"> {article?.description}</p>
                                             <div className="card-actions gap-2 my-3 flex flex-row items-center flex-wrap">
                                                 <div className="avatar">
