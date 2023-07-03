@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={workSans.className}>
+      <body className={workSans.className + "scroll-smooth"}>
         <Navbar />
         {children}
         <Footer />
