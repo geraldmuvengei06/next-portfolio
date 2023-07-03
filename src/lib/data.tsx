@@ -65,7 +65,7 @@ export const skills:{icon: string, title: string}[] = [
     },
     {
         icon: '/git.png',
-        title: 'Source Control',
+        title: 'Git',
     }
 ]
 

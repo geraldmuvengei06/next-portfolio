@@ -11,7 +11,7 @@ export default function Footer() {
                             <Image
                                 src="/logo.svg"
                                 alt="Gerald Muvengei"
-                                // className="dark:invert"
+                                className="opacity-0"
                                 width={252}
                                 height={56}
                                 priority

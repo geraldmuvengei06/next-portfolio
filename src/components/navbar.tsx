@@ -28,8 +28,8 @@ export default function Navbar() {
                                 src="/logo.svg"
                                 alt="Gerald Muvengei"
                                 // className="dark:invert"
-                                width={216}
-                                height={48}
+                                width={172}
+                                height={38}
                                 priority
                             />
                         </Link>

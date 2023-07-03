@@ -22,9 +22,9 @@ export default function Skills() {
                                     //     </div>
                                     // </div>
 
-                                    <div key={index + 'skills'}  className="card p-2 w-32 h-32 bg-opacity-70 backdrop-blur shadow-sm bg-white dark:bg-dark m-2  border-transparent hover:ring-1 hover:ring-slate-700">
+                                    <div key={index + 'skills'}  className="card p-2 w-24 h-24 bg-opacity-70 backdrop-blur shadow-sm bg-white dark:bg-dark m-2  border-transparent hover:ring-1 hover:ring-slate-700">
                                         <div className="flex flex-col items-center justify-around ">
-                                            <img className="w-20 h-20 mb-2 object-contain" src={skill?.icon} alt={skill?.title} />
+                                            <img className="w-14 h-14 mb-2 object-contain" src={skill?.icon} alt={skill?.title} />
                                             <span className="text-sm text-gray-500 dark:text-gray-400">{skill?.title}</span>
                                         </div>
                                     </div>
