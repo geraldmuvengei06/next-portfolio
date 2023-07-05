@@ -31,6 +31,8 @@ module.exports = {
       slate: colors.slate,
       gray: colors.gray,
       white: colors.white,
+      pink: colors.pink,
+      rose: colors.rose
     },
   },
   plugins: [require("daisyui")],

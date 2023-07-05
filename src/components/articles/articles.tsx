@@ -28,7 +28,7 @@ export default function Articles() {
                         articles.map((article, index) => {
                             return (
                                 <div key={index + 'article'} className="w-3/3 sm:w-2/4 md:w-1/3 xl:w-1/4 p-2">
-                                    <div className="card shadow rounded-2xl bg-white dark:bg-dark m-1 bg-opacity-70 backdrop-blur hover:ring-1 hover:ring-slate-700">
+                                    <div className="animate__animated animate__slideInUp card shadow rounded-2xl bg-white dark:bg-dark m-1 bg-opacity-70 backdrop-blur hover:ring-1 hover:ring-slate-700">
 
                                     <Link target="_blank" href={article?.url}><figure><img className="p-2 rounded-2xl" src={article?.cover_image} alt={article.title} /></figure></Link>
                                         <div className="card-body p-4">

@@ -1,5 +1,6 @@
 import Navbar from '@/components/navbar';
 import './globals.css'
+import 'animate.css';
 import { inter, workSans, raleway } from "@/styles/fonts";
 import Footer from '@/components/footer';
 
